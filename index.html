@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,38 +8,141 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background-color: #f9f9f9;
+      margin: 0;
+      line-height: 1.6;
+      background: #f8f9fa;
       color: #333;
     }
-    img {
-      max-width: 200px;
+    header {
+      background: #004d40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #00695c;
+    }
+    .curso {
+      background: #e0f2f1;
+      padding: 20px;
       margin-bottom: 20px;
+      border-left: 5px solid #004d40;
     }
-    h1 {
-      font-size: 28px;
-      color: #2c3e50;
-    }
-    p {
-      font-size: 18px;
-      margin: 10px 0;
+    ul {
+      padding-left: 20px;
     }
     a {
-      color: #0066cc;
-      text-decoration: none;
+      color: #00695c;
+    }
+    footer {
+      background: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 15px 10px;
+    }
+    .form-container {
+      margin-top: 30px;
+    }
+    .form-container iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
     }
   </style>
 </head>
 <body>
 
-  <img src="logo-excellere.png" alt="Logo Excellere" />
+  <header>
+    <img src="logo-excellere.png.png" alt="Logo Excellere">
+    <h1>Excellere – Excelência Acadêmica com Propósito</h1>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-  <h1>Excellere – Especialização Executiva</h1>
-  <p><strong>Excelência acadêmica com propósito</strong></p>
+  <section id="inicio">
+    <img src="https://images.unsplash.com/photo-1600195077074-d99c1d88f2e4?fit=crop&w=1350&q=80" alt="Equipe em Reunião" style="width:100%; max-height:400px; object-fit:cover; margin-bottom:20px;">
+    <h2>Formação executiva em Desenvolvimento Organizacional</h2>
+    <p>Conhecimento aplicado para quem quer transformar organizações com base teórica sólida e ferramentas práticas.</p>
+  </section>
 
-  <p>📧 <strong>Email:</strong> <a href="mailto:cursos@excellere.me">cursos@excellere.me</a></p>
-  <p>📱 <strong>Telefone / WhatsApp:</strong> <a href="https://wa.me/5511956071133" target="_blank">(11) 9 5607‑1133</a></p>
+  <section id="sobre">
+    <h2>Sobre a Excellere</h2>
+    <p>A Excellere é uma instituição dedicada à formação executiva em Desenvolvimento Organizacional. Nossos cursos combinam teoria robusta com aplicação prática, voltados para profissionais de RH, consultores e líderes que buscam aperfeiçoamento técnico e estratégico.</p>
+  </section>
+
+  <section id="cursos">
+    <h2>Nossos Cursos</h2>
+
+    <div class="curso">
+      <h3>📘 Introdução ao Desenvolvimento Organizacional</h3>
+      <p>Conceitos fundamentais, evolução histórica e modelos clássicos de DO. Ideal para quem está começando na área.</p>
+    </div>
+
+    <div class="curso">
+      <h3>📙 Atualização em Desenvolvimento Organizacional</h3>
+      <p>Conceitos contemporâneos, cases e ferramentas para quem já atua na área e busca aprofundamento e atualização.</p>
+    </div>
+
+    <div class="curso">
+      <h3>📗 Estrutura Organizacional e Amplitude de Controle</h3>
+      <p>Curso técnico sobre design organizacional com base em Mintzberg, Barkdull e práticas de mercado.</p>
+    </div>
+
+    <p><strong>➡️ Deseja conhecer a programação completa?</strong> <a href="#contato">Entre em contato conosco</a></p>
+  </section>
+
+  <section id="diferenciais">
+    <h2>Por que escolher a Excellere?</h2>
+    <ul>
+      <li>📚 Conteúdo com embasamento acadêmico e foco prático</li>
+      <li>👨‍🏫 Professores com vivência em consultoria e docência</li>
+      <li>💼 Aplicação direta em projetos organizacionais</li>
+      <li>📜 Certificados com reconhecimento no mercado</li>
+      <li>🧩 Comunidade ativa de profissionais da área</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <p>Fale conosco para mais informações, inscrições e orientações:</p>
+    <ul>
+      <li>📧 E-mail: <a href="mailto:cursos@excellere.me">cursos@excellere.me</a></li>
+      <li>📱 WhatsApp: <a href="https://wa.me/5511956071133" target="_blank">(11) 9 5607‑1133</a></li>
+      <li>🌐 Redes sociais: @excellere.executiva</li>
+    </ul>
+
+    <div class="form-container">
+      <h3>📥 Inscreva-se agora</h3>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1tw3m08UozD4QUYlz5U__KMVZm4JHD9GRA3LaC5vdaMOr4A/viewform?embedded=true">Carregando…</iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Excellere – Especialização Executiva | Excelência Acadêmica com Propósito</p>
+  </footer>
 
 </body>
 </html>
